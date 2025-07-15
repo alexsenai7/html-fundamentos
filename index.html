@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Página - Módulo I - Primeiros Passos com HTML</title>
+   <style>
+      body {
+         background-color: white;
+         margin: 0;
+      }
+
+      #principal {
+         background-color: whitesmoke;
+         width: 1000px;
+         margin: 20px auto;
+         padding: 10px;
+      }
+
+      .voltar {
+         display: block;
+         text-align: center;
+         padding: 7px 15px;
+         width: 100px;
+         border-radius: 15px;
+         text-decoration: none;
+         background-color: lightgrey;
+         color: black;
+         margin-left: 800px;
+         /* margin-right: 50px; */
+         /* padding-right: 50px; */
+      }
+
+      .voltar:hover {
+         background-color: black;
+         color: white;
+      }
+
+      #indice {
+         list-style: circle;
+      }
+
+      #indice a {
+         color: black;
+      }
+
+      #indice a:hover {
+         text-decoration: none;
+      }
+   </style>
+</head>
+
+<body>
+   <div id="principal">
+      <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+      <hr />
+
+      <h2>Índice</h2>
+      <ul id="indice">
+         <li><a href="#hist-pcs">História dos computadores</a></li>
+         <li><a href="#clientes">O que são <i>Clients</i>?</a></li>
+         <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+         <li><a href="#estrutura-html">Como é uma estrutura básica de um HTML?</a></li>
+         <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+         <li><a href="#referencias">Links de referências</a></li>
+      </ul>
+
+      <h2 id="hist-pcs">História dos computadores</h2>
+      <a href="#inicio" class="voltar">↑ VOLTAR</a>
+      <p>
+         A história dos computadores começa muito antes da criação dos computadores modernos. Aqui estão os principais
+         marcos:
+      </p>
+
+      <ol>
+         <li>Ábaco (c. 2400 a.C.): Primeiro instrumento de cálculo.</li>
+         <li>Máquina Analítica (século XIX): Criada por Charles Babbage, considerada o primeiro projeto de computador
+            mecânico.</li>
+         <li>ENIAC (1946): Primeiro computador eletrônico de uso geral. Ocupava uma sala inteira.</li>
+         <li>Década de 70: Aparecimento dos microprocessadores e dos primeiros computadores pessoais, como o Apple I.
+         </li>
+         <li>Décadas de 80 e 90: Popularização dos PCs e surgimento da Internet.</li>
+         <li><strong>Atualidade: </strong>Computadores estão em celulares, smart TVs, carros e objetos do cotidiano
+            (IoT).</li>
+      </ol>
+
+      <h2 id="clientes">O que são <i>Clients</i>?</h2>
+      <a href="#inicio" class="voltar">↑ VOLTAR</a>
+      <p><em>"Client"</em> significa cliente, em redes e programação web. Um cliente é:</p>
+      <ul>
+         <li>Qualquer dispositivo ou software que faz requisições para obter dados ou serviços de um servidor.</li>
+         <li>Exemplo: seu navegador (Google Chrome) é um client que pede páginas a um servidor web.</li>
+      </ul>
+
+
+
+
+
+
+
+      <h2 id="servers">O que são <i>Servers</i>?</h2>
+      <a href="#inicio" class="voltar">↑ VOLTAR</a>
+      <p><em>"Server"</em> significa <strong>servidor</strong>. Ele é:</p>
+      <ol>
+         <li>Um computador ou programa que fornece serviços ou responde requisições dos clients.</li>
+         <li>Tipos comuns: servidor web, de e-mail, de arquivos, de banco de dados.</li>
+         <li>Exemplo: O servidor do Google entrega o resultado de uma pesquisa feita no navegador.</li>
+      </ol>
+
+      <h2 id="estrutura-html">Como é uma estrutura básica de um HTML?</h2>
+      <a href="#inicio" class="voltar">↑ VOLTAR</a>
+      <p>&lt;!DOCTYPE html&gt;: define o tipo do documento.</p>
+      <p>&lt; html&gt;: raiz do documento.</p>
+      <p>&lt;head&gt;: informações da página (não visíveis).</p>
+      <p>&lt;body&gt;: conteúdo visível da página.</p>
+
+      <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+      <a href="#inicio" class="voltar">↑ VOLTAR</a>
+      <p>🔹 Lista Ordenada (&lt;ol&gt;)</p>
+      <p>Usada quando a ordem importa (ex: passo a passo):</p>
+
+      <p>🔹 Lista Não Ordenada (&lt;ul&gt)</p>
+      <p>Usada quando a ordem não importa (ex: lista de compras):</p>
+
+
+      <h2 id="referencias">Links de referências</h2>
+      <a href="#inicio" class="voltar">↑ VOLTAR</a>
+      <ul>
+         <li><a href="https://www.dio.me" target="_blank">http://dio.me</a></li>
+         <li><a href="https://www.w3.org/" target="_blank">http://w3c.org</a></li>
+      </ul>
+   </div>
+
+</body>
+
+</html>
